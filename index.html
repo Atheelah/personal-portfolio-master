@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--Owl Carousel Links-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <nav id="Home" class="navbar-container">
+      <ul class="navbar">
+        <li class="navbar-link"><a href="#Home">Home</a></li>
+        <li class="navbar-link"><a href="#About">About Me</a></li>
+        <li class="navbar-link">
+          <a href="#Work-and-Education">Work and Education</a>
+        </li>
+        <li class="navbar-link"><a href="#Projects">Projects</a></li>
+        <li class="navbar-link"><a href="#Testimonials">Testimonials</a></li>
+        <li class="navbar-link"><a href="#Contact-Me">Contact Me</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div class="landing">
+        <div class="landing-text">
+          <div>
+            <h1 class="name">Atheelah</h1>
+            <h2 data-aos="zoom-in-up" data-aos-duration="3000" class="pink">
+              Van Der Schyff
+            </h2>
+          </div>
+          <h3 class="under-text">Aspiring Web Developer</h3>
+        </div>
+        <img class="image" src="./images/image.png" alt="me" />
+      </div>
+    </section>
+    <!--About Section-->
+    <section id="About">
+      <section class="about-me-container">
+        <br />
+        <h1
+          data-aos-duration="3000"
+          data-aos="zoom-in-right"
+          class="about-heading"
+        >
+          ABOUT
+        </h1>
+        <div class="about-me"></div>
+      </section>
+      <div class="about-text-container">
+        <img class="me-image" src="./images/image 3" alt="image of Atheelah" />
+        <div class="landing-text-container">
+          <h3 class="H3">Aspiring Web Developer</h3>
+          <p class="paragraph">
+            I am a very shy person when comes to meeting other people. I am not
+            the type of person to trust easily unless I feel a sense of comfort
+            within the next person. I may come across as harsh and serious, but
+            I'm real nice when you get to know me. I am the type of person who
+            will always be there for the next one, helping them up along the
+            way. I'm a go-getter, once I start something no matter how hard it
+            gets I will try my best to finish.
+          </p>
+          <div>
+            <h1 class="passion">WHERE MY PASSION FOR CODING STARTED</h1>
+            <p class="paragraph">
+              Technology is always evolving, and I would like to be part of that
+              evolution. I have 3 family members who are in this field and
+              looking at it, it showed me how many doors IT can actually open
+              for you. For the past year, I have been looking and searching for
+              an occupation but was not successful. Applying to Life Choices
+              Academy was the best decision I have ever made. It didn't make
+              sense at the time as to why I was not getting in anything, but
+              looking back and connecting the dots made me realize that maybe
+              Life Choices and the path of Coding was put out for me.
+            </p>
+          </div>
+          <div id="modal">
+            <h1
+              data-aos-duration="3000"
+              data-aos="zoom-in-right"
+              class="skills-heading"
+            >
+              SKILLS
+            </h1>
+            <div>
+              <p class="skill-icons">
+                <img
+                  class="skill-icon"
+                  src="https://img.icons8.com/color/96/000000/html-5--v1.png"
+                />
+                <img
+                  class="skill-icon"
+                  src="https://img.icons8.com/color/96/000000/css3.png"
+                />
+                <img
+                  class="skill-icon"
+                  src="https://img.icons8.com/color/96/000000/python.png"
+                />
+                <img
+                  class="skill-icon"
+                  src="https://img.icons8.com/color/96/000000/javascript.png"
+                />
+                <img
+                  class="skill-icon"
+                  src="https://img.icons8.com/fluent/96/000000/microsoft-word-2019.png"
+                />
+                <img
+                  class="skill-icon"
+                  src="https://img.icons8.com/fluent/96/000000/microsoft-excel-2019.png"
+                />
+                <img
+                  class="skill-icon"
+                  src="https://img.icons8.com/fluent/96/000000/microsoft-powerpoint-2019.png"
+                />
+              </p>
+            </div>
+            <button
+              type="submit"
+              class="contact-button learn btn close"
+              onclick="openModal()"
+            >
+              Close
+            </button>
+          </div>
+
+          <button
+            type="submit"
+            class="contact-button learn btn"
+            onclick="openModal()"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--Work and Education Section/timeline-->
+
+    <section id="Work-and-Education">
+      <!--Time-line line-->
+      <!--Time-line Items-->
+      <h1
+        data-aos-duration="3000"
+        data-aos="zoom-in-right"
+        class="experience-heading"
+      >
+        EXPERIENCE
+      </h1>
+      <div class="header-container">
+        <p>Work Experience</p>
+        <p>Education History</p>
+      </div>
+
+      <span class="line-work"></span>
+      <div class="timeline-container">
+        <div class="line"></div>
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-left"
+          class="timeline-item item1"
+        >
+          <h2>Belgravia High School - <span>Matriculant</span></h2>
+          <h3>2019</h3>
+          <p>
+            Matriculated High School with a bachelors pass. <br />
+            The Subjects I did are as follows: <br />
+            Mathematical Literacy, English, Afrikaans, Life Sciences, Geography,
+            Life Orientation, Computer Applications Technology.
+          </p>
+        </div>
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-right"
+          class="timeline-item item2"
+        >
+          <h2>Al-Baik Take Aways - <span>Employee</span></h2>
+          <h3>2020-2021</h3>
+          <p>
+            I worked at Al-Baik Take Aways, which is a fast food restuarant.<br />
+            Here I worked as a chef, making pizzas, burgers, to even making
+            rolls and cake.
+          </p>
+        </div>
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-left"
+          class="timeline-item item3"
+        >
+          <h2>Shaw Academy - <span>Part-time Student </span></h2>
+          <h3>2019</h3>
+          <p>
+            I did a Photography course on Shaw Academy for a few months. <br />
+            I tried to upskill myself as a beginner photographer.
+          </p>
+        </div>
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-right"
+          class="timeline-item item4"
+        >
+          <h2>Life Choices Academy - <span>Aspiring Web Developer</span></h2>
+          <h3>2021</h3>
+          <p>
+            I am currently a Student at Life Choices. <br />
+            I am learning a new skill which is Coding. My goal is to make
+            something out of this journey for myself.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects Section-->
+    <section id="Projects">
+      <div>
+        <h1
+          data-aos-duration="3000"
+          data-aos="zoom-in-right"
+          class="projects-heading"
+        >
+          PORTFOLIO
+        </h1>
+        <!--Card Container-->
+        <div class="container">
+          <!-- CARD 1 -->
+          <div class="card">
+            <img
+              src="https://i.postimg.cc/Kz7wt2ML/contact-form.png"
+              alt="Contact Form"
+            />
+            <div class="content">
+              <h2>Contact Form</h2>
+              <h3>HTML/CSS</h3>
+            </div>
+            <div>
+              <!--Button-->
+              <a
+                href="https://youthful-payne-760abd.netlify.app"
+                target="_blank"
+                class="button"
+                >Netlify</a
+              >
+              <a
+                href="https://github.com/Atheelah/contact-form"
+                target="_blank"
+                class="button"
+                >Github</a
+              >
+            </div>
+          </div>
+          <!--Card Two-->
+          <div class="card">
+            <img
+              src="https://i.postimg.cc/858gh4n8/Timeline.png"
+              alt="Time-Line"
+            />
+            <div class="content">
+              <h2>Time-Line</h2>
+              <h3>HTML/CSS</h3>
+            </div>
+            <div>
+              <!--Button-->
+              <a
+                href="https://ecstatic-tesla-b28fe6.netlify.app"
+                target="_blank"
+                class="button"
+                >Netlify</a
+              >
+              <a
+                href="https://github.com/Atheelah/glassmorphic-timeline"
+                target="_blank"
+                class="button"
+                >Github</a
+              >
+            </div>
+          </div>
+          <!--Card Three-->
+          <div class="card">
+            <img src="https://i.postimg.cc/9f6G6HMM/test.png" alt="blank" />
+            <div class="content">
+              <h2>Testimonial Slider</h2>
+              <h3>HTML/CSS</h3>
+            </div>
+            <div>
+              <!--Button-->
+              <a
+                href="https://serene-lovelace-69bc5f.netlify.app"
+                target="_blank"
+                class="button"
+                >Netlify</a
+              >
+              <a
+                href="https://github.com/Atheelah/testimonial_slider"
+                target="_blank"
+                class="button"
+                >Github</a
+              >
+            </div>
+          </div>
+
+          <!--Card Four-->
+          <div class="card">
+            <img
+              src="https://i.postimg.cc/DZbrG9Sw/adding-numbers.png"
+              alt="Adding Two Numbers"
+            />
+            <div class="content">
+              <h2>Adding Two Numbers</h2>
+              <h3>Python/Tkinter</h3>
+            </div>
+            <div>
+              <!--Button-->
+              <a
+                href="https://replit.com/@AtheelahVan/adding-numbers"
+                target="_blank"
+                class="button"
+                >Replit</a
+              >
+              <a
+                href="https://github.com/Atheelah/adding_two_numbers"
+                target="_blank"
+                class="button"
+                >Github</a
+              >
+            </div>
+          </div>
+          <!--Card Five-->
+
+          <div class="card">
+            <img
+              src="https://i.postimg.cc/zvr2VWnd/bmi.png"
+              alt="BMI Calculator"
+            />
+            <div class="content">
+              <h2>BMI Calculator</h2>
+              <h3>Python/Tkinter</h3>
+            </div>
+            <div>
+              <!--Button-->
+              <a
+                href="https://replit.com/@AtheelahVan/BMICalculator"
+                target="_blank"
+                class="button"
+                >Replit</a
+              >
+              <a
+                href="https://github.com/Atheelah/BMI_Calculator"
+                target="_blank"
+                class="button"
+                >Github</a
+              >
+            </div>
+          </div>
+          <!--Card Six-->
+          <div class="card">
+            <img
+              src="https://i.postimg.cc/fLGPLPRq/easy.png"
+              alt="image of Easy Ticket"
+            />
+            <div class="content">
+              <h2>Easy Ticket</h2>
+              <h3>Python/Tkinter</h3>
+            </div>
+            <div>
+              <!--Button-->
+              <a
+                href="https://replit.com/@AtheelahVan/EasyTicket"
+                target="_blank"
+                class="button"
+                >Replit</a
+              >
+              <a
+                href="https://github.com/Atheelah/Easy_Ticket "
+                target="_blank"
+                class="button"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonials Section-->
+    <section id="Testimonials">
+      <div>
+        <h1
+          data-aos-duration="3000"
+          data-aos="zoom-in-right"
+          class="testimonials-heading"
+        >
+          TESTIMONIALS
+        </h1>
+
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img
+              src="./images/thapelo.jpg"
+              alt=""
+              style="width: 200px; height: 200px"
+            />
+            <div>
+              <h2>THAPELO TSOTETSI</h2>
+              <h3>Lecturer</h3>
+              <q class="paragraph">
+                Atheelah is a great student. Her communication skills are are
+                amazing and she works very well even withing a group or a team.
+                She has the ability to learn new technologies quickly and she
+                could be a great addition to a web development team. Atheelah
+                has great intellectual skills.
+              </q>
+            </div>
+          </div>
+
+          <div class="item">
+            <img
+              src="./images/Godwin.jpg"
+              alt=""
+              style="width: 200px; height: 200px"
+            />
+            <div>
+              <h2>GODWIN DZVAPATSVA</h2>
+              <h3>Head of Cirriculum and Learning</h3>
+              <q class="paragraph">
+                Atheelah has shown a remarkable development since joining the
+                organisation and I believe she still has potential to improve.
+              </q>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="./images/ikraam.png"
+              alt=""
+              style="width: 200px; height: 200px"
+            />
+            <div>
+              <h2>IKRAAM SAGE</h2>
+              <h3>Peer</h3>
+              <q class="paragraph">
+                "Atheelah is very consistent and always working hard. Her
+                designs are wonderful and she is good at what shes doing"
+              </q>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="./images/naeemah.jpeg"
+              alt=""
+              style="width: 200px; height: 200px"
+            />
+            <div>
+              <h2>NAEEMAH DAVIS</h2>
+              <h3>Peer</h3>
+              <q class="paragraph">
+                Atheelah is a kind individual. Intelectually girfted,
+                enthusiastic and charismatic. I believe that she will be an
+                asset at any company she steps into.
+              </q>
+            </div>
+          </div>
+
+          <div class="item">
+            <img
+              src="./images/Hlonela.png"
+              alt=""
+              style="width: 200px; height: 200px"
+            />
+            <div>
+              <h2>HLONELA MABHANI</h2>
+              <h3>Peer</h3>
+              <q class="paragraph">
+                Atheelah is a very warm soul. She is always fun to be around.
+                Her boldness and willingness to learn is very admirable. She
+                will make a great Web Developer, I believe that with all my
+                might!
+              </q>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Me Section-->
+    <section id="Contact-Me">
+      <div>
+        <h1
+          data-aos-duration="3000"
+          data-aos="zoom-in-right"
+          class="contactMe-heading"
+        >
+          CONTACT
+        </h1>
+        <h1 class="contact-heading heading-h1">
+          To contact me, please fill out the form on this section.
+        </h1>
+        <div class="form-container">
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/xeqvaklo"
+            method="POST"
+          >
+            <div class="contact-info">
+              <label for="name" class="contact-label">Your Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                class="contact-input"
+                placeholder="full name"
+              />
+            </div>
+            <div class="contact-info">
+              <label for="email" class="contact-label">Your Email:</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                required
+                class="contact-input"
+                placeholder="email@domain.com"
+              />
+            </div>
+            <div class="contact-info">
+              <label for="contact" class="contact-label">Contact Number:</label>
+              <input
+                type="tel"
+                name="contact"
+                id="contact"
+                required
+                class="contact-input"
+                placeholder="098 765 4321"
+              />
+            </div>
+            <div class="contact-info">
+              <textarea
+                name="your message"
+                id="your message"
+                cols="49"
+                rows="10"
+                placeholder="your message"
+                class="contact-input"
+              >
+              </textarea>
+            </div>
+            <div class="contact-info">
+              <button type="submit" class="contactMe-button">Send</button>
+            </div>
+          </form>
+          <div class="iframe-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13234.368687827766!2d18.51071035!3d-33.977320399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1622926226577!5m2!1sen!2sza"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a
+        href="https://www.linkedin.com/in/atheelah-van-der-schyff-ba869a212/"
+        target="_blank"
+        class="link"
+        ><i class="fab fa-linkedin mail-icons color"></i
+      ></a>
+      <a href="https://github.com/Atheelah" target="_blank" class="link"
+        ><i class="fab fa-github mail-icons color"></i
+      ></a>
+      <p class="email" class="link">
+        <i class="fas fa-envelope mail-icons color"
+          >:atheelahvanderschyff17@gmail.com</i
+        >
+      </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ae860589f8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>

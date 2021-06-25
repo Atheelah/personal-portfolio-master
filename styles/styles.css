@@ -67,11 +67,12 @@ body {
 }
 
 .about-heading {
+  font-family: "Montserrat", sans-serif;
   font-size: 100px;
   margin-left: 50%;
   /* background-image: url(/images/rainbow.jpg); */
   background-size: cover;
-  color: white;
+  color: whitesmoke;
   text-shadow: 1px 0 0 grey, 0 -1px 0 grey, 0 1px 0 grey, -1px 0 0 grey;
   background-clip: text;
   -webkit-background-clip: text;
@@ -192,8 +193,9 @@ body {
 }
 
 .experience-heading {
+  font-family: "Montserrat", sans-serif;
   font-size: 100px;
-  margin-left: 7.5%;
+  margin-left: 30%;
   /* background-image: url(/images/rainbow.jpg); */
   background-size: cover;
   text-shadow: 1px 0 0 grey, 0 -1px 0 grey, 0 1px 0 grey, -1px 0 0 grey;
@@ -249,8 +251,9 @@ p.about-text {
   margin-left: 4%;
 }
 .projects-heading {
+  font-family: "Montserrat", sans-serif;
   font-size: 100px;
-  margin-left: 7.5%;
+  margin-left: 30%;
   /* background-image: url(/images/rainbow.jpg); */
   background-size: cover;
   text-shadow: 1px 0 0 grey, 0 -1px 0 grey, 0 1px 0 grey, -1px 0 0 grey;
@@ -285,17 +288,18 @@ p.about-text {
   width: 10px;
 }
 .line {
-  width: 10px;
+  width: 6px;
   height: 100%;
-  grid-column-start: 2;
+  margin-left: 80px;
   grid-row-start: 1;
   grid-row-end: 5;
   background: black;
   box-shadow: 0 20px 32px 0 rgba(10, 10, 10, 0.37);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
-  border-radius: 10px;
+
   border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-right: 5%;
 }
 .header-container {
   display: flex;
@@ -330,7 +334,7 @@ p.about-text {
   box-shadow: 0 20px 32px 0 rgba(10, 10, 10, 0.37);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
-  border-radius: 10px;
+  border-radius: 0px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 5%;
 }
@@ -340,6 +344,7 @@ p.about-text {
   padding-top: 5%;
 }
 .skills-heading {
+  font-family: "Montserrat", sans-serif;
   font-size: 90px;
   margin-left: 25%;
   top: 10px;
@@ -382,7 +387,7 @@ p.about-text {
 
 .fab:hover,
 .fas:hover {
-  color: gray;
+  color: grey;
 }
 
 .projects {
@@ -423,12 +428,8 @@ p.about-text {
   margin-bottom: 10%;
 }
 .button {
-  background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
-
-  color: black;
+  background: black;
+  color: white;
   text-decoration: none;
   padding: 10px 50px;
   transition: all 0.3s linear;
@@ -441,7 +442,8 @@ p.about-text {
 
 .button:hover {
   font-size: 1.1em;
-  background: rgba(204, 150, 150, 0.8);
+  background: white;
+  color: black;
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
 }
@@ -462,19 +464,30 @@ p.about-text {
 }
 .small-image {
   border-radius: 50%;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 .image-container div {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 210px);
   margin-left: 10px;
+}
+.name-occ {
+  margin-top: 30px;
 }
 .name-title {
   display: flex;
 }
-
+.test-slider {
+  display: none;
+}
+.test-active {
+  display: block;
+}
 .testimonials-heading {
-  font-size: 80px;
-  margin-left: 7.5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  margin-left: 60%;
   margin-bottom: 5%;
   /* background-image: url(/images/rainbow.jpg); */
   background-size: cover;
@@ -531,8 +544,9 @@ p.about-text {
   margin-left: 20px;
 }
 .contactMe-heading {
-  font-size: 80px;
-  margin-left: 0%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  margin-left: 26%;
   /* background-image: url(/images/rainbow.jpg); */
   background-size: cover;
   background-position-y: center;
@@ -557,7 +571,7 @@ p.about-text {
 }
 .heading-h1 {
   margin-bottom: 20px;
-  margin-left: 0px;
+  margin-left: 26%;
   display: flex;
   justify-content: flex-start;
 }
@@ -634,8 +648,8 @@ p.about-text {
 footer {
   position: fixed;
   display: flex;
-  justify-content: right;
-  align-items: right;
+  justify-content: rightx;
+  align-items: flex-end;
   bottom: 0;
   width: 100vw;
   padding: 0.5%;

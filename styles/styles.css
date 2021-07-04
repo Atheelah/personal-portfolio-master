@@ -638,7 +638,7 @@ p.about-text {
 
 .footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   background-color: whitesmoke;
   position: fixed;
   width: 100vw;
@@ -648,8 +648,8 @@ p.about-text {
 footer {
   position: fixed;
   display: flex;
-  justify-content: rightx;
-  align-items: flex-end;
+  justify-content: right;
+  align-items: flex-start;
   bottom: 0;
   width: 100vw;
   padding: 0.5%;
@@ -657,6 +657,7 @@ footer {
   color: white;
   z-index: 1000;
 }
+
 .email {
   display: flex;
   flex-direction: row;
@@ -668,7 +669,7 @@ footer {
   justify-content: right;
   align-self: right;
   font-size: 30px;
-  margin-left: 3%;
+  margin-left: 235%;
 }
 
 footer a {

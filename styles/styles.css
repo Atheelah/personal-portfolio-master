@@ -405,6 +405,7 @@ p.about-text {
   margin-left: 5%;
   margin-top: 10%;
   border: solid 2px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
 }
 .skill-icon {
   margin-left: 2%;
@@ -728,7 +729,7 @@ iframe {
 }
 @media screen and (max-width: 600px) {
   body {
-    width: 1300px;
+    width: 600px;
     overflow-x: hidden;
   }
   .navbar {
@@ -740,21 +741,111 @@ iframe {
     font-size: 10px;
   }
   .landing-text {
-    align-self: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
     text-transform: uppercase;
     font-size: 15px;
     font-family: "Archivo Black", sans-serif;
-    padding-top: 10%;
+    margin-left: 0%;
   }
   .image {
-    width: 40vh;
-    height: 60vh;
+    width: 300px;
+    height: 300px;
+    margin-right: 0px;
+  }
+  .under-text {
+    margin-left: 5%;
+    font-size: 15px;
+  }
+  .heading {
     display: flex;
-    flex-direction: row-reverse;
-    align-self: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    font-size: 15px;
+  }
+  .name {
+    margin-left: 5%;
+  }
+  .landing {
+    height: 300px;
+  }
+  .navbar {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .about-heading {
+    font-size: 65px;
+    margin-left: 30%;
+  }
+  .about-heading::after {
+    font-size: 20px;
+    top: 30px;
+  }
+  .me-image {
+    height: 320px;
+    width: 300px;
+  }
+  .H3 {
+    font-size: 12px;
+  }
+  .paragraph {
+    font-size: 10px;
+  }
+  .passion {
+    font-size: 12px;
+  }
+  .contact-button {
+    width: 200px;
+    border-radius: 0px;
+    padding: 3px;
+    margin: 6px 30px 0px;
+  }
+  .skills-heading {
+    font-size: 45px;
+  }
+  .skills-heading::after {
+    font-size: 15px;
+    top: 20px;
+  }
+  .skill-icon {
+    border: none;
+    margin-left: 8%;
+  }
+  .skill-icons {
+    border: none;
+  }
+  .close {
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  .experience-heading {
+    font-size: 65px;
+    margin-left: 1%;
+  }
+  .experience-heading::after {
+    font-size: 20px;
+    top: 30px;
+  }
+  .header-container {
+    font-size: large;
+  }
+  .timeline-item p {
+    font-size: 10px;
+  }
+  .timeline-item h2 {
+    font-size: 15px;
+  }
+  .timeline-item h3 {
+    font-size: 12px;
+  }
+  .line {
+    margin-left: 30px;
+  }
+  .projects-heading {
+    font-size: 65px;
+    margin-left: 30%;
+  }
+  .projects-heading::after {
+    font-size: 20px;
+    top: 30px;
   }
 }

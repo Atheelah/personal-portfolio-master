@@ -819,7 +819,7 @@ iframe {
   }
   .experience-heading {
     font-size: 65px;
-    margin-left: 1%;
+    margin-left: 5%;
   }
   .experience-heading::after {
     font-size: 20px;
@@ -842,10 +842,57 @@ iframe {
   }
   .projects-heading {
     font-size: 65px;
-    margin-left: 30%;
+    margin-left: 5%;
   }
   .projects-heading::after {
     font-size: 20px;
     top: 30px;
+  }
+  .testimonials-heading {
+    font-size: 65px;
+    margin-left: 5%;
+  }
+  .testimonials-heading::after {
+    font-size: 20px;
+    top: 30px;
+  }
+  .contactMe-heading {
+    font-size: 65px;
+    margin-left: 1%;
+  }
+  .contactMe-heading::after {
+    font-size: 20px;
+    top: 30px;
+  }
+  #Contact-Me {
+    height: 100vh;
+    padding: 0%;
+    margin-left: 20px;
+  }
+  .heading-h1 {
+    margin-bottom: 20px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+  }
+  .send {
+    width: 800px;
+    border-radius: 0px;
+    padding: 3px;
+    margin: 0px;
+  }
+  .link {
+    font-size: 1px;
+  }
+  .made {
+    margin-left: 60px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .mail-icons {
+    font-size: 25px;
   }
 }

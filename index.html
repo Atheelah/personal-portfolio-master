@@ -429,7 +429,7 @@
           TESTIMONIALS
         </h1>
         <i class="fas fa-quote-right quote"></i>
-        <div class="test-slider test-active" testimonial="Thapelo">
+        <div class="test-slider test-active" testimonial="Thapelo" id="Thapelo">
           <p class="paragraph">
             Atheelah is a great student. Her communication skills are are
             amazing and she works very well even withing a group or a team. She
@@ -450,7 +450,7 @@
             </div>
           </div>
         </div>
-        <div class="test-slider">
+        <div class="test-slider" id="Godwin">
           <p class="paragraph">
             Atheelah has shown a remarkable development since joining the
             organisation and I believe she still has potential to improve.
@@ -468,7 +468,7 @@
             </div>
           </div>
         </div>
-        <div class="test-slider">
+        <div class="test-slider" id="Naeemah">
           <p class="paragraph">
             Atheelah is a kind individual. Intelectually girfted, enthusiastic
             and charismatic. I believe that she will be an asset at any company
@@ -487,7 +487,7 @@
             </div>
           </div>
         </div>
-        <di class="test-slider">
+        <di class="test-slider" id="Hlonela">
           <p class="paragraph">
             Atheelah is a very warm soul. She is always fun to be around. Her
             boldness and willingness to learn is very admirable. She will make a
@@ -506,7 +506,7 @@
             </div>
           </div>
         </di>
-        <div class="test-slider">
+        <div class="test-slider" id="Ikraam">
           <p class="paragraph">
             "Atheelah is very consistent and always working hard. Her designs
             are wonderful and she is good at what shes doing"
@@ -527,31 +527,31 @@
       </div>
       <div class="image-container">
         <img
+          class="src-thapelo"
           src="./images/thapelo.jpg"
-          onclick="showTestimonial('Thapelo')"
+          onclick="showTestimonial('#Thapelo')"
           alt="Image of Thapelo"
-          style="width: 400px; height: 400px"
         />
         <div>
           <img
+            class="src"
             src="./images/Godwin.jpg"
+            onmouseover="showTestimonial('#Godwin')"
             alt="Image of Godwin"
-            style="width: 200px; height: 200px; margin-bottom: 10px"
           />
           <img
+            class="src"
             src="./images/naeemah.jpeg"
+            onmouseover="showTestimonial('#Naeemah')"
             alt="Image of Naeemah"
-            style="width: 200px; height: 200px; margin-bottom: 10px"
           />
+          <img class="src" src="./images/Hlonela.png"
+          onmouseover="showTestimonial('#Hlonela')" alt="Image of Hlonela" " />
           <img
-            src="./images/Hlonela.png"
-            alt="Image of Hlonela"
-            style="width: 200px; height: 200px"
-          />
-          <img
+            class="src"
             src="./images/ikraam.png"
+            onmouseover="showTestimonial('#Ikraam')"
             alt="Image of ikraam"
-            style="width: 200px; height: 200px"
           />
         </div>
       </div>

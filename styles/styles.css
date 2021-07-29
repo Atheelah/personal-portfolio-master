@@ -542,6 +542,16 @@ p.about-text {
   color: black;
   top: 30px;
 }
+.src {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+.src-thapelo {
+  width: 310px;
+  height: 310px;
+}
 
 .h3 {
   text-transform: uppercase;
@@ -894,5 +904,15 @@ iframe {
   }
   .mail-icons {
     font-size: 25px;
+  }
+  #Testimonials {
+    flex-direction: column;
+  }
+  .src {
+    width: 150px;
+    height: 150px;
+  }
+  .image-container div {
+    grid-template-columns: repeat(2, 160px);
   }
 }

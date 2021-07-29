@@ -549,8 +549,8 @@ p.about-text {
   margin-left: 0px;
 }
 .src-thapelo {
-  width: 310px;
-  height: 310px;
+  width: 400px;
+  height: 400px;
 }
 
 .h3 {
@@ -686,6 +686,9 @@ p.about-text {
   width: 100vw;
   opacity: 90%;
   z-index: 9999;
+}
+.heart {
+  color: white;
 }
 footer {
   position: fixed;
@@ -914,5 +917,9 @@ iframe {
   }
   .image-container div {
     grid-template-columns: repeat(2, 160px);
+  }
+  .src-thapelo {
+    width: 310px;
+    height: 310px;
   }
 }

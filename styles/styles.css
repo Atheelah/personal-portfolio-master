@@ -11,7 +11,7 @@
   src: url(truenoblk.otf) format(truetype);
 }
 body {
-  background-color: rgb(241, 235, 235);
+  background-color: white;
   font-family: sans-serif;
   background-size: cover;
   background-attachment: fixed;
@@ -540,17 +540,14 @@ p.about-text {
   font-size: 30px;
   text-shadow: none;
   color: black;
-  top: 30px;
+  top: 40px;
 }
 .src {
   width: 200px;
   height: 200px;
   margin-bottom: 10px;
   margin-left: 0px;
-}
-.src-thapelo {
-  width: 400px;
-  height: 400px;
+  background-size: cover;
 }
 
 .h3 {
@@ -609,7 +606,7 @@ p.about-text {
   font-size: 30px;
   text-shadow: none;
   color: black;
-  top: 30px;
+  top: 40px;
 }
 .heading-h1 {
   margin-bottom: 20px;
